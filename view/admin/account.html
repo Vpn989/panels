@@ -4,11 +4,11 @@
             <h1 class="page-header">
                 <check if="{{ @user->uid }}">
                     <true>
-                        Edit OpenVpn User
+                        Edit Vpn/Ssh User
                         <a href="/home/admin/server/{{ @server->id }}/account/" class="btn btn-default pull-right"><i class="fa fa-arrow-left fa-fw"></i> Kembali</a>
                     </true>
                     <false>
-                        Add OpenVpn User
+                        Add Vpn/Ssh User
                     </false>
                 </check>
             </h1>
